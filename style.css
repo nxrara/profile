@@ -1,0 +1,106 @@
+body{
+  background-color: #2E294E;
+  color: #351E29;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.4;
+  padding: 20px;
+}
+
+h1, h2, h3{
+  font-family: 'Crimson Text', serif;
+  color: #273E47;
+}
+
+h1{
+  font-size: 45px;
+  font-weight: 600;
+}
+
+h2{
+  font-size: 35px;
+  line-height: 48px;
+}
+
+h3{
+  font-size: 30px;
+  font-weight: 300;
+}
+
+p{
+  font-size: 15px;
+  font-weight: 300;
+}
+
+a{
+  color: #7D451B;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #D19C1D;
+  text-decoration: none;
+}
+
+.img-centre {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  Width: 300px;
+  Height: 200px;
+  border-radius: 50%;
+}
+
+.container{
+  width: 500px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  background: #D9DBF1;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 10px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
